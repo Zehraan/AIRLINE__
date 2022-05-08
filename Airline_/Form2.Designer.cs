@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle209 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle210 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle211 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle212 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle213 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle214 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle215 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle216 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle217 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle218 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle219 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle220 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle221 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Logo = new System.Windows.Forms.PictureBox();
             this.Anaekranfoto = new System.Windows.Forms.PictureBox();
             this.Uyarıyazısı = new System.Windows.Forms.Label();
@@ -280,14 +280,14 @@
             // Içhatgrid
             // 
             this.Içhatgrid.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Içhatgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle209.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle209.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle209.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle209.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle209.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle209.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle209.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Içhatgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle209;
             this.Içhatgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Içhatgrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ucus_kodu2,
@@ -403,14 +403,14 @@
             // Dıshatgrid
             // 
             this.Dıshatgrid.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dıshatgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle210.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle210.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle210.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle210.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle210.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle210.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle210.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dıshatgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle210;
             this.Dıshatgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Dıshatgrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ucus_kodu,
@@ -514,14 +514,14 @@
             // ucakfilosugrid2
             // 
             this.ucakfilosugrid2.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ucakfilosugrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle211.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle211.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle211.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle211.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle211.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle211.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle211.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ucakfilosugrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle211;
             this.ucakfilosugrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ucakfilosugrid2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ucaktur_id,
@@ -542,8 +542,8 @@
             // ucaktur_id
             // 
             this.ucaktur_id.DataPropertyName = "ucaktur_id";
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.SteelBlue;
-            this.ucaktur_id.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle212.BackColor = System.Drawing.Color.SteelBlue;
+            this.ucaktur_id.DefaultCellStyle = dataGridViewCellStyle212;
             this.ucaktur_id.HeaderText = "Uçak Türü Kodu";
             this.ucaktur_id.MinimumWidth = 6;
             this.ucaktur_id.Name = "ucaktur_id";
@@ -552,8 +552,8 @@
             // ucak_turu
             // 
             this.ucak_turu.DataPropertyName = "ucak_turu";
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.SteelBlue;
-            this.ucak_turu.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle213.BackColor = System.Drawing.Color.SteelBlue;
+            this.ucak_turu.DefaultCellStyle = dataGridViewCellStyle213;
             this.ucak_turu.HeaderText = "Uçak Türü";
             this.ucak_turu.MinimumWidth = 6;
             this.ucak_turu.Name = "ucak_turu";
@@ -562,8 +562,8 @@
             // yolcu_kapasite
             // 
             this.yolcu_kapasite.DataPropertyName = "yolcu_kapasite";
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.SteelBlue;
-            this.yolcu_kapasite.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle214.BackColor = System.Drawing.Color.SteelBlue;
+            this.yolcu_kapasite.DefaultCellStyle = dataGridViewCellStyle214;
             this.yolcu_kapasite.HeaderText = "Yolcu Kapasitesi";
             this.yolcu_kapasite.MinimumWidth = 6;
             this.yolcu_kapasite.Name = "yolcu_kapasite";
@@ -572,8 +572,8 @@
             // ucak_agirlik
             // 
             this.ucak_agirlik.DataPropertyName = "ucak_agirlik";
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.SteelBlue;
-            this.ucak_agirlik.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle215.BackColor = System.Drawing.Color.SteelBlue;
+            this.ucak_agirlik.DefaultCellStyle = dataGridViewCellStyle215;
             this.ucak_agirlik.HeaderText = "Uçak Ağırlığı";
             this.ucak_agirlik.MinimumWidth = 6;
             this.ucak_agirlik.Name = "ucak_agirlik";
@@ -582,8 +582,8 @@
             // ucak_surat
             // 
             this.ucak_surat.DataPropertyName = "ucak_surat";
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.SteelBlue;
-            this.ucak_surat.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle216.BackColor = System.Drawing.Color.SteelBlue;
+            this.ucak_surat.DefaultCellStyle = dataGridViewCellStyle216;
             this.ucak_surat.HeaderText = "Uçak Sürati";
             this.ucak_surat.MinimumWidth = 6;
             this.ucak_surat.Name = "ucak_surat";
@@ -592,8 +592,8 @@
             // havayolu_id5
             // 
             this.havayolu_id5.DataPropertyName = "havayolu_id";
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.SteelBlue;
-            this.havayolu_id5.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle217.BackColor = System.Drawing.Color.SteelBlue;
+            this.havayolu_id5.DefaultCellStyle = dataGridViewCellStyle217;
             this.havayolu_id5.HeaderText = "Havayolu Şirket Kodu";
             this.havayolu_id5.MinimumWidth = 6;
             this.havayolu_id5.Name = "havayolu_id5";
@@ -602,8 +602,8 @@
             // adet
             // 
             this.adet.DataPropertyName = "adet";
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.SteelBlue;
-            this.adet.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle218.BackColor = System.Drawing.Color.SteelBlue;
+            this.adet.DefaultCellStyle = dataGridViewCellStyle218;
             this.adet.HeaderText = "Adet";
             this.adet.MinimumWidth = 6;
             this.adet.Name = "adet";
@@ -633,9 +633,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(625, 15);
+            this.pictureBox2.Location = new System.Drawing.Point(496, 16);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(492, 376);
+            this.pictureBox2.Size = new System.Drawing.Size(536, 376);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -643,14 +643,14 @@
             // havayolusirketgrid2
             // 
             this.havayolusirketgrid2.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.havayolusirketgrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle219.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle219.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle219.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle219.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle219.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle219.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle219.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.havayolusirketgrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle219;
             this.havayolusirketgrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.havayolusirketgrid2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.havayolu_id3,
@@ -666,8 +666,8 @@
             // havayolu_id3
             // 
             this.havayolu_id3.DataPropertyName = "havayolu_id";
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.havayolu_id3.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle220.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.havayolu_id3.DefaultCellStyle = dataGridViewCellStyle220;
             this.havayolu_id3.HeaderText = "Havayolu Şirket Kodu";
             this.havayolu_id3.MinimumWidth = 6;
             this.havayolu_id3.Name = "havayolu_id3";
@@ -676,8 +676,8 @@
             // havayolu_ad
             // 
             this.havayolu_ad.DataPropertyName = "havayolu_ad";
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.havayolu_ad.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle221.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.havayolu_ad.DefaultCellStyle = dataGridViewCellStyle221;
             this.havayolu_ad.HeaderText = "Havayolu Şirket Adı";
             this.havayolu_ad.MinimumWidth = 6;
             this.havayolu_ad.Name = "havayolu_ad";
@@ -688,9 +688,11 @@
             this.Instagrambtn.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.Instagrambtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Instagrambtn.BackgroundImage")));
             this.Instagrambtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Instagrambtn.Location = new System.Drawing.Point(834, 16);
+            this.Instagrambtn.FlatAppearance.BorderSize = 0;
+            this.Instagrambtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Instagrambtn.Location = new System.Drawing.Point(836, 17);
             this.Instagrambtn.Name = "Instagrambtn";
-            this.Instagrambtn.Size = new System.Drawing.Size(54, 43);
+            this.Instagrambtn.Size = new System.Drawing.Size(50, 40);
             this.Instagrambtn.TabIndex = 9;
             this.Instagrambtn.UseVisualStyleBackColor = false;
             this.Instagrambtn.Click += new System.EventHandler(this.Instagrambtn_Click);
@@ -700,9 +702,11 @@
             this.Twitterbtn.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.Twitterbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Twitterbtn.BackgroundImage")));
             this.Twitterbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Twitterbtn.Location = new System.Drawing.Point(894, 16);
+            this.Twitterbtn.FlatAppearance.BorderSize = 0;
+            this.Twitterbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Twitterbtn.Location = new System.Drawing.Point(894, 17);
             this.Twitterbtn.Name = "Twitterbtn";
-            this.Twitterbtn.Size = new System.Drawing.Size(54, 43);
+            this.Twitterbtn.Size = new System.Drawing.Size(50, 40);
             this.Twitterbtn.TabIndex = 10;
             this.Twitterbtn.UseVisualStyleBackColor = false;
             this.Twitterbtn.Click += new System.EventHandler(this.Twitterbtn_Click);
@@ -712,9 +716,11 @@
             this.facebookbtn.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.facebookbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("facebookbtn.BackgroundImage")));
             this.facebookbtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.facebookbtn.Location = new System.Drawing.Point(954, 16);
+            this.facebookbtn.FlatAppearance.BorderSize = 0;
+            this.facebookbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.facebookbtn.Location = new System.Drawing.Point(954, 17);
             this.facebookbtn.Name = "facebookbtn";
-            this.facebookbtn.Size = new System.Drawing.Size(54, 43);
+            this.facebookbtn.Size = new System.Drawing.Size(50, 40);
             this.facebookbtn.TabIndex = 11;
             this.facebookbtn.UseVisualStyleBackColor = false;
             this.facebookbtn.Click += new System.EventHandler(this.facebookbtn_Click);
@@ -737,6 +743,7 @@
             this.Controls.Add(this.Uyarıyazısı);
             this.Controls.Add(this.Anaekranfoto);
             this.Controls.Add(this.Logo);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
             this.Text = "İSTANBUL SABİHA GÖKÇEN HAVALİMANI";
