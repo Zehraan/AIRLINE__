@@ -248,11 +248,11 @@ namespace Airline_
             }
             Yoneticiucusgriddoldur();
 
-
+            // kaynak: https://www.yazilimkodlama.com/programlama/datagridview-de-secili-satirlari-veritabanindan-silme/ 
 
 
         }
 
-       
+
     }
 }

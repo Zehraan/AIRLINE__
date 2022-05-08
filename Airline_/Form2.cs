@@ -48,6 +48,7 @@ namespace Airline_
             adapter.Fill(ds, "ucuslar");
             Içhatgrid.DataSource = ds.Tables["ucuslar"];
             conn.Close();
+            //kaynak: https://www.youtube.com/watch?v=il2nCpZLqWw
         }
 
         void Dıshatgriddoldur()
@@ -58,6 +59,7 @@ namespace Airline_
             adapter.Fill(ds, "ucuslar");
             Dıshatgrid.DataSource = ds.Tables["ucuslar"];
             conn.Close();
+
         }
 
         private void Menubtn_Click(object sender, EventArgs e)
