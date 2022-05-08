@@ -163,7 +163,7 @@ namespace Airline_
             cmd.ExecuteNonQuery();
                 
                 conn.Close();
-                MessageBox.Show("Müşteri Kayıt İşlemi Gerçekleşti.");
+                MessageBox.Show("Uçuş bilgileri kaydedildi.");
             panel1.Enabled = false;
             panel1.Visible = false;
             
@@ -184,7 +184,7 @@ namespace Airline_
             cmd.ExecuteNonQuery();
                 
                 conn.Close();
-                MessageBox.Show("Müşteri Kayıt İşlemi Gerçekleşti.");
+                MessageBox.Show("Havayolu şirketi kaydedildi.");
             sirketeklepanel.Visible = false;
         }
 
