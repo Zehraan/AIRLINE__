@@ -190,6 +190,9 @@ namespace Airline_
 
         private void KAYITEKRANI_Click(object sender, EventArgs e)
         {
+            if(sirketeklepanel.Visible)
+                sirketeklepanel.Visible=false;
+            else
             sirketeklepanel.Visible = true;
             sirketeklepanel.Enabled = true;
         }

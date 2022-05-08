@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -258,7 +258,7 @@
             // 
             this.Ucusilbtn.BackColor = System.Drawing.Color.White;
             this.Ucusilbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Ucusilbtn.Location = new System.Drawing.Point(638, 366);
+            this.Ucusilbtn.Location = new System.Drawing.Point(638, 350);
             this.Ucusilbtn.Name = "Ucusilbtn";
             this.Ucusilbtn.Size = new System.Drawing.Size(139, 38);
             this.Ucusilbtn.TabIndex = 2;
@@ -292,7 +292,7 @@
             this.panel1.Enabled = false;
             this.panel1.Location = new System.Drawing.Point(6, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(348, 400);
+            this.panel1.Size = new System.Drawing.Size(348, 384);
             this.panel1.TabIndex = 3;
             this.panel1.Visible = false;
             // 
@@ -471,9 +471,9 @@
             // 
             this.Ucuseklebtn.BackColor = System.Drawing.Color.White;
             this.Ucuseklebtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Ucuseklebtn.Location = new System.Drawing.Point(97, 357);
+            this.Ucuseklebtn.Location = new System.Drawing.Point(97, 345);
             this.Ucuseklebtn.Name = "Ucuseklebtn";
-            this.Ucuseklebtn.Size = new System.Drawing.Size(139, 40);
+            this.Ucuseklebtn.Size = new System.Drawing.Size(139, 38);
             this.Ucuseklebtn.TabIndex = 1;
             this.Ucuseklebtn.Text = "EKLE";
             this.Ucuseklebtn.UseVisualStyleBackColor = false;
@@ -483,7 +483,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button2.Location = new System.Drawing.Point(783, 366);
+            this.button2.Location = new System.Drawing.Point(783, 350);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(137, 38);
             this.button2.TabIndex = 5;
@@ -495,7 +495,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.White;
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button3.Location = new System.Drawing.Point(929, 366);
+            this.button3.Location = new System.Drawing.Point(929, 350);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(180, 37);
             this.button3.TabIndex = 6;
@@ -791,7 +791,6 @@
             // 
             // sirketeklepanel
             // 
-            this.sirketeklepanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.sirketeklepanel.Controls.Add(this.vergilabel);
             this.sirketeklepanel.Controls.Add(this.sirketadlabel);
             this.sirketeklepanel.Controls.Add(this.sirketeklebtn);
@@ -882,14 +881,14 @@
             // Yoneticisirketgrid
             // 
             this.Yoneticisirketgrid.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Yoneticisirketgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Yoneticisirketgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.Yoneticisirketgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Yoneticisirketgrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.havayolu_id7,
