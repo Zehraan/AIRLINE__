@@ -1,0 +1,13 @@
+C:\Users\anzeh\source\repos\Airline_\Airline_\bin\Debug\Airline_.exe.config
+C:\Users\anzeh\source\repos\Airline_\Airline_\bin\Debug\Airline_.exe
+C:\Users\anzeh\source\repos\Airline_\Airline_\bin\Debug\Airline_.pdb
+C:\Users\anzeh\source\repos\Airline_\Airline_\obj\Debug\Airline_.csproj.AssemblyReference.cache
+C:\Users\anzeh\source\repos\Airline_\Airline_\obj\Debug\Airline_.csproj.SuggestedBindingRedirects.cache
+C:\Users\anzeh\source\repos\Airline_\Airline_\obj\Debug\Airline_.Form1.resources
+C:\Users\anzeh\source\repos\Airline_\Airline_\obj\Debug\Airline_.Form2.resources
+C:\Users\anzeh\source\repos\Airline_\Airline_\obj\Debug\Airline_.Properties.Resources.resources
+C:\Users\anzeh\source\repos\Airline_\Airline_\obj\Debug\Airline_.csproj.GenerateResource.cache
+C:\Users\anzeh\source\repos\Airline_\Airline_\obj\Debug\Airline_.csproj.CoreCompileInputs.cache
+C:\Users\anzeh\source\repos\Airline_\Airline_\obj\Debug\Airline_.exe
+C:\Users\anzeh\source\repos\Airline_\Airline_\obj\Debug\Airline_.pdb
+C:\Users\anzeh\source\repos\Airline_\Airline_\obj\Debug\Airline_.Form5.resources
