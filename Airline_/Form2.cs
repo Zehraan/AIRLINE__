@@ -181,6 +181,6 @@ namespace Airline_
             gridkayıtizin(havayolusirketgrid2);
             
         }
-        //başarılı
+        
     }
 }

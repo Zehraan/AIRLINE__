@@ -31,4 +31,5 @@ namespace Airline_
             this.Hide();
         }
     }
+    //kaynak: https://stackoverflow.com/questions/1142828/add-timer-to-a-windows-forms-application
 }
