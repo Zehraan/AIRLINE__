@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -79,13 +79,6 @@
             this.havayolu_id8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.Yoneticifilogrid = new System.Windows.Forms.DataGridView();
-            this.ucaktur_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ucak_turu = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.yolcu_kapasite = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ucak_agirlik = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ucak_surat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.havayolu_id6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.adet = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.Yoneticipilotgrid = new System.Windows.Forms.DataGridView();
             this.sicil_no = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -113,6 +106,13 @@
             this.Menubtn = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.ucaktur_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ucak_turu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yolcu_kapasite = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ucak_agirlik = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ucak_surat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.havayolu_id6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.adet = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.Yoneticipanel.SuspendLayout();
@@ -636,62 +636,6 @@
             this.Yoneticifilogrid.Size = new System.Drawing.Size(1109, 410);
             this.Yoneticifilogrid.TabIndex = 2;
             // 
-            // ucaktur_id
-            // 
-            this.ucaktur_id.DataPropertyName = "ucaktur_id";
-            this.ucaktur_id.HeaderText = "Uçak Türü Kodu";
-            this.ucaktur_id.MinimumWidth = 6;
-            this.ucaktur_id.Name = "ucaktur_id";
-            this.ucaktur_id.Width = 125;
-            // 
-            // ucak_turu
-            // 
-            this.ucak_turu.DataPropertyName = "ucak_turu";
-            this.ucak_turu.HeaderText = "Uçak Türü";
-            this.ucak_turu.MinimumWidth = 6;
-            this.ucak_turu.Name = "ucak_turu";
-            this.ucak_turu.Width = 125;
-            // 
-            // yolcu_kapasite
-            // 
-            this.yolcu_kapasite.DataPropertyName = "yolcu_kapasite";
-            this.yolcu_kapasite.HeaderText = "Yolcu Kapasitesi";
-            this.yolcu_kapasite.MinimumWidth = 6;
-            this.yolcu_kapasite.Name = "yolcu_kapasite";
-            this.yolcu_kapasite.Width = 125;
-            // 
-            // ucak_agirlik
-            // 
-            this.ucak_agirlik.DataPropertyName = "ucak_agirlik";
-            this.ucak_agirlik.HeaderText = "Uçak Ağırlığı";
-            this.ucak_agirlik.MinimumWidth = 6;
-            this.ucak_agirlik.Name = "ucak_agirlik";
-            this.ucak_agirlik.Width = 125;
-            // 
-            // ucak_surat
-            // 
-            this.ucak_surat.DataPropertyName = "ucak_surat";
-            this.ucak_surat.HeaderText = "Uçak Sürati";
-            this.ucak_surat.MinimumWidth = 6;
-            this.ucak_surat.Name = "ucak_surat";
-            this.ucak_surat.Width = 125;
-            // 
-            // havayolu_id6
-            // 
-            this.havayolu_id6.DataPropertyName = "havayolu_id";
-            this.havayolu_id6.HeaderText = "Havayolu Şirket Kodu";
-            this.havayolu_id6.MinimumWidth = 6;
-            this.havayolu_id6.Name = "havayolu_id6";
-            this.havayolu_id6.Width = 125;
-            // 
-            // adet
-            // 
-            this.adet.DataPropertyName = "adet";
-            this.adet.HeaderText = "Adet";
-            this.adet.MinimumWidth = 6;
-            this.adet.Name = "adet";
-            this.adet.Width = 125;
-            // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
@@ -881,14 +825,14 @@
             // Yoneticisirketgrid
             // 
             this.Yoneticisirketgrid.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Yoneticisirketgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Yoneticisirketgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.Yoneticisirketgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Yoneticisirketgrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.havayolu_id7,
@@ -984,6 +928,62 @@
             this.button1.TabIndex = 9;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // ucaktur_id
+            // 
+            this.ucaktur_id.DataPropertyName = "ucaktur_id";
+            this.ucaktur_id.HeaderText = "Uçak Türü Kodu";
+            this.ucaktur_id.MinimumWidth = 6;
+            this.ucaktur_id.Name = "ucaktur_id";
+            this.ucaktur_id.Width = 125;
+            // 
+            // ucak_turu
+            // 
+            this.ucak_turu.DataPropertyName = "ucak_turu";
+            this.ucak_turu.HeaderText = "Uçak Türü";
+            this.ucak_turu.MinimumWidth = 6;
+            this.ucak_turu.Name = "ucak_turu";
+            this.ucak_turu.Width = 125;
+            // 
+            // yolcu_kapasite
+            // 
+            this.yolcu_kapasite.DataPropertyName = "yolcu_kapasite";
+            this.yolcu_kapasite.HeaderText = "Yolcu Kapasitesi";
+            this.yolcu_kapasite.MinimumWidth = 6;
+            this.yolcu_kapasite.Name = "yolcu_kapasite";
+            this.yolcu_kapasite.Width = 125;
+            // 
+            // ucak_agirlik
+            // 
+            this.ucak_agirlik.DataPropertyName = "ucak_agirlik";
+            this.ucak_agirlik.HeaderText = "Uçak Ağırlığı";
+            this.ucak_agirlik.MinimumWidth = 6;
+            this.ucak_agirlik.Name = "ucak_agirlik";
+            this.ucak_agirlik.Width = 125;
+            // 
+            // ucak_surat
+            // 
+            this.ucak_surat.DataPropertyName = "ucak_surat";
+            this.ucak_surat.HeaderText = "Uçak Sürati";
+            this.ucak_surat.MinimumWidth = 6;
+            this.ucak_surat.Name = "ucak_surat";
+            this.ucak_surat.Width = 125;
+            // 
+            // havayolu_id6
+            // 
+            this.havayolu_id6.DataPropertyName = "havayolu_id";
+            this.havayolu_id6.HeaderText = "Havayolu Şirket Kodu";
+            this.havayolu_id6.MinimumWidth = 6;
+            this.havayolu_id6.Name = "havayolu_id6";
+            this.havayolu_id6.Width = 125;
+            // 
+            // adet
+            // 
+            this.adet.DataPropertyName = "adet";
+            this.adet.HeaderText = "Adet";
+            this.adet.MinimumWidth = 6;
+            this.adet.Name = "adet";
+            this.adet.Width = 125;
             // 
             // Form5
             // 
@@ -1104,6 +1104,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn kapı_no8;
         private System.Windows.Forms.DataGridViewTextBoxColumn karusel8;
         private System.Windows.Forms.DataGridViewTextBoxColumn havayolu_id8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn havayolu_id7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn havayolu_ad2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn vergi_no;
         private System.Windows.Forms.DataGridViewTextBoxColumn ucaktur_id;
         private System.Windows.Forms.DataGridViewTextBoxColumn ucak_turu;
         private System.Windows.Forms.DataGridViewTextBoxColumn yolcu_kapasite;
@@ -1111,8 +1114,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ucak_surat;
         private System.Windows.Forms.DataGridViewTextBoxColumn havayolu_id6;
         private System.Windows.Forms.DataGridViewTextBoxColumn adet;
-        private System.Windows.Forms.DataGridViewTextBoxColumn havayolu_id7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn havayolu_ad2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn vergi_no;
     }
 }

@@ -53,7 +53,7 @@ namespace Airline_
 
         void Dıshatgriddoldur()
         {
-            adapter = new SqlDataAdapter("SELECT * FROM ucuslar where ucuslar.varis_yeri NOT IN (SELECT DISTINCT (sehirler.sehir_id) FROM sehirler WHERE ulke_adi='Türkiye')", conn);
+            adapter = new SqlDataAdapter("SELECT * FROM ucuslar where ucuslar.varis_yeri NOT IN (SELECT (sehirler.sehir_id) FROM sehirler WHERE ulke_adi='Türkiye')", conn);
             DataSet ds = new DataSet();
             conn.Open();
             adapter.Fill(ds, "ucuslar");

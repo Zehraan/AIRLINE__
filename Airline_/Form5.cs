@@ -21,6 +21,7 @@ namespace Airline_
         SqlCommand cmd = new SqlCommand();
         SqlDataReader reader;
         SqlDataAdapter adapter;
+
         
         private void Şifretext_TextChanged(object sender, EventArgs e)
         {
@@ -143,9 +144,8 @@ namespace Airline_
 
         private void Ucuseklebtn_Click(object sender, EventArgs e)
         {
-            
-                string kayit = "INSERT INTO ucuslar(ucus_kodu,varis_yeri,kalkis_saati,varis_saati,ucus_durum,ucus_suresi,ucus_tipi,kapı_no,karusel,havayolu_id) VALUES  (@ucus_kodu,@varis_yeri,@kalkis_saati,@varis_saati,@ucus_durum,@ucus_suresi,@ucus_tipi,@kapı_no,@karusel,@havayolu_id)";
-                
+
+            string kayit = "INSERT INTO ucuslar(ucus_kodu,varis_yeri,kalkis_saati,varis_saati,ucus_durum,ucus_suresi,ucus_tipi,kapı_no,karusel,havayolu_id) VALUES  (@ucus_kodu,@varis_yeri,@kalkis_saati,@varis_saati,@ucus_durum,@ucus_suresi,@ucus_tipi,@kapı_no,@karusel,@havayolu_id)";
                 cmd = new SqlCommand(kayit, conn);
                
                 cmd.Parameters.AddWithValue("@ucus_kodu", ucuskoduext.Text);
@@ -166,7 +166,16 @@ namespace Airline_
                 MessageBox.Show("Uçuş bilgileri kaydedildi.");
             panel1.Enabled = false;
             panel1.Visible = false;
-            
+            ucuskoduext.Clear();
+            varisyeritext.Clear();
+            kalkissaatitext.Clear();
+            varissaatitext.Clear();
+            ucusdurumutext.Clear();
+            ucusüresitext.Clear();
+            ucustipitext.Clear();
+            kapınotext.Clear();
+            karuseltext.Clear();
+            havayoluidtext.Clear();
         }
 
         private void sirketeklebtn_Click(object sender, EventArgs e)
@@ -186,6 +195,10 @@ namespace Airline_
                 conn.Close();
                 MessageBox.Show("Havayolu şirketi kaydedildi.");
             sirketeklepanel.Visible = false;
+            sirketidtext.Clear();
+            sirketadtext.Clear();   
+            sirketvergitext.Clear();
+            
         }
 
         private void KAYITEKRANI_Click(object sender, EventArgs e)
@@ -214,6 +227,9 @@ namespace Airline_
             conn.Close();
             sirketeklepanel.Enabled=false;
             sirketeklepanel.Visible=false;
+            sirketidtext.Clear();
+            sirketadtext.Clear();
+            sirketvergitext.Clear();
         }
 
         private void button3_Click(object sender, EventArgs e)
